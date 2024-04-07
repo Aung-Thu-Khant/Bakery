@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "348104194427",
+    "firebase_url": "https://butter-c2e55-default-rtdb.firebaseio.com",
+    "project_id": "butter-c2e55",
+    "storage_bucket": "butter-c2e55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348104194427:android:be02a44e035bee738365de",
+        "android_client_info": {
+          "package_name": "com.example.butterbloom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYsy4sfQC6zhEl6AleMTuQtawcQdnhBWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

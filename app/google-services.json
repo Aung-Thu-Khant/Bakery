@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "846778020844",
+    "project_id": "butter-46246",
+    "storage_bucket": "butter-46246.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846778020844:android:4d21c1bf0e8f8afb34c6c9",
+        "android_client_info": {
+          "package_name": "com.example.butterbloom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACVvxcfYiyXfEYcGpnqUR74NLktBQD7i4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

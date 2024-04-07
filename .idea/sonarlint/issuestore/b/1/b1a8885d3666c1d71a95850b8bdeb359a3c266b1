@@ -1,0 +1,13 @@
+
+>
+java:S1604("(Make this anonymous inner class a lambda(„ÑñŒ
+s
+java:S1104"XMake SplashScreen a static final constant or non-public and provide accessors if needed.(ÄÜ²×ùÿÿÿÿ
+M
+java:S1444"2Make this "public static SplashScreen" field final(ÄÜ²×ùÿÿÿÿ
+i	java:S116"TRename this field "SplashImg" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùğ
+o	java:S116"URename this field "SplashAnim" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ŠÔøÿÿÿÿ
+r
+java:S3008"WRename this field "SplashScreen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÜ²×ùÿÿÿÿ
+E
+java:S1874("/Remove this use of "Handler"; it is deprecated.(„ÑñŒ

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEAE4"
+    tools:context=".AdminHomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:background="#593938"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/croplogo" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="176dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/berkshire_swash"
+            android:paddingTop="25dp"
+            android:text="Welcome"
+            android:textAlignment="center"
+            android:textColor="#EFEAE4"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="506dp"
+        android:background="#EFEAE4"
+        android:divider="@drawable/divier_space"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:showDividers="middle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.325">
+
+        <Button
+            android:id="@+id/btn_ManageUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:drawableLeft="@drawable/group"
+            android:fontFamily="@font/berkshire_swash"
+            android:paddingStart="10dp"
+            android:text="Manage Users"
+            android:textAllCaps="false"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:drawableLeft="@drawable/addadmin"
+            android:fontFamily="@font/berkshire_swash"
+            android:paddingStart="10dp"
+            android:text="Add Admin"
+            android:textAllCaps="false"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:drawableLeft="@drawable/outofstock"
+            android:fontFamily="@font/berkshire_swash"
+            android:paddingStart="10dp"
+            android:text="Check Stock"
+            android:textAllCaps="false"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:drawableLeft="@drawable/increase"
+            android:fontFamily="@font/berkshire_swash"
+            android:paddingStart="10dp"
+            android:text="Sale Track"
+            android:textAllCaps="false"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:drawableLeft="@drawable/edittext"
+            android:fontFamily="@font/berkshire_swash"
+            android:text="Manage Products"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:paddingStart="10dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
